@@ -2,10 +2,7 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-    <header>
-    <h1><span style="color:blue">Lee Jun Fai's</span> <br> Work Portfolio</h1>
-
-    </header>
+    
     <style>
     h1 {text-align: center;}
     h3 {text-align: center;}
@@ -105,12 +102,13 @@ label { color: white; }
 }
 
 .dropdown {
-  text-align: center;
+  position: fixed;
+  top: 0%;
+  left: 0%;
 }
 
 .dropdown-content {
   display: none;
-  text-align: center;
   background-color: #000000;
   min-width: 100px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -131,8 +129,14 @@ label { color: white; }
 
 .dropdown:hover .dropbtn {background-color: #2B3794;}
     </style>
+    <header>
+      <h1><span style="color:blue">Lee Jun Fai's</span> <br> Work Portfolio</h1>
+  
+      </header>
 <div class="dropdown">
-  <button class="dropbtn">Table of Contents</button>
+  <button class="dropbtn">
+  Table of Contents
+  </button>
   <div class="dropdown-content">
     <a href="#About Me">About Me</a>
     <a href="#Skills, Education, Work Experience">Skills, Education, Work Experience</a>
