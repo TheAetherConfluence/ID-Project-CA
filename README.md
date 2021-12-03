@@ -17,10 +17,11 @@ FEATURES
 Navigation Bar at the top allows the user to immediately jump to the desired section of the site by clicking on the hyperlink.
 
 1) Portfolio with links to allow users to see my completed projects by clicking on the one they wish to view(even if it is just random links right now in lieu of not having any substantial projects to speak of).
-2) Email Me Button and LinkedIn direct links to allow users to contact me if they wish to hire me.
-Features left to Implement
-1) Image Gallery for Portfolio
-2) More Interactive Features to engage the user.
+2) Email and LinkedIn direct links to allow users to contact me if they wish to hire me.
+3) Form for employers to contact me with their information 
+4) Form to receive a rating and feedback on how to improve the website
+
+Yet to be implemented features: Multiple Webpages, javascript interactive code, image gallery
 
 TECHNOLOGIES USED
 
