@@ -41,6 +41,6 @@ On both Mobile and PC, the website is fully functional, and the mobile site safe
 
 CREDITS
 
-Images were taken from Arknights, Honkai Impact 3, Tenor, t3.ftcdn.net and istockphoto
+Images were taken from Arknights, coolbackgrounds.io, stocksnap.io, t3.ftcdn.net and istockphoto
 
 I received inspiration from w3schools which provided tutorials on how to implement html features.
