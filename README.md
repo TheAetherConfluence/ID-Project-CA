@@ -20,6 +20,7 @@ Navigation Bar at the top allows the user to immediately jump to the desired sec
 2) Email and LinkedIn direct links to allow users to contact me if they wish to hire me.
 3) Form for employers to contact me with their information 
 4) Form to receive a rating and feedback on how to improve the website
+5) Dropdown Navigation Bar fixed to the site so that it will scroll down along the page and allow for easy access to parts of the webpage.
 
 Yet to be implemented features: Multiple Webpages, javascript interactive code, image gallery
 
