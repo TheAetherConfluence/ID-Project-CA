@@ -192,7 +192,7 @@ label { color: white; }
   <br>
 
     <label for="subject">Message (If you selected "Other" under Country, please name it here)</label>
-    <textarea id="subject" name="subject" placeholder="Write your message here" style="height:200px"></textarea>
+    <textarea id="subject" name="subject" placeholder="Write your message here" style="height:100px"></textarea>
 
     <input type="submit" value="Submit">
   </form>
@@ -201,8 +201,8 @@ label { color: white; }
 <h3> Got some feedback about this website? Rate the site here</h3>
 <div class="container">
     <form action="/action_page.php">
-        <label for ="rating">Rate this site out of 10</label>
-        <select id="rating" name="rating">
+        <label for ="rating">Rate this site out of 10</label><br>
+        <select id="rating" name="rating" style = "width:60px">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -213,7 +213,7 @@ label { color: white; }
             <option value="8">8</option>
             <option value="9">9</option>
             <option value="10">10</option>
-        </select>
+        </select> <br>
         <label for="feedback">If you have any suggestions or feedback for the website, please write them here!</label>
     <textarea id="feedback" name="feedback" placeholder="Write your feedback here" style="height:100px"></textarea>
     <input type="submit" value="Submit">
