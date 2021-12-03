@@ -25,7 +25,7 @@ Yet to be implemented features: Multiple Webpages, javascript interactive code, 
 
 TECHNOLOGIES USED
 
-https://www.w3schools.com/ was used to help implement several features of the website as I had barely any knowledge on how to actually code in features so I used w3schools to learn the structure of the code. No plagiarism was done as the code wasn't mass copied directly from the website, I only used the tutorials to guide me.
+https://www.w3schools.com/ was used to help implement several features of the website as I had barely any knowledge on how to actually code in features so I used w3schools to learn the structure of the code such as how to stylise the website.
 
 Visual Studio Code was used to code and test the website. https://code.visualstudio.com/
 
