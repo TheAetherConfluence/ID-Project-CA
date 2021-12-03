@@ -95,15 +95,53 @@ input[type=submit]:hover {
   border-color: white;
 }
 label { color: white; }
+
+.dropbtn {
+  background-color: #3E4FCE;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  text-align: center;
+  background-color: #000000;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;
+  color:black;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #2B3794;}
     </style>
-    <ul>
-  <li><a href="#About Me">About Me</a></li>
-  <li><a href="#Skills, Education, Work Experience">Skills, Education, Work Experience</a></li>
-  <li><a href="#Achievements">Achievements</a></li>
-  <li><a href="#Why you should hire me">Why you should hire me</a></li>
-  <li><a href="#Portfolio">Portfolio</a></li>
-  <li><a href="#Contact Me">Contact Me</a></li>
-</ul>
+<div class="dropdown">
+  <button class="dropbtn">Table of Contents</button>
+  <div class="dropdown-content">
+    <a href="#About Me">About Me</a>
+    <a href="#Skills, Education, Work Experience">Skills, Education, Work Experience</a>
+    <a href="#Achievements">Achievements</a>
+    <a href="#Why you should hire me">Why You Should Hire Me</a>
+    <a href="#Portfolio">Portfolio</a>
+    <a href="#Contact Me">Contact Me</a>
+  </div>
+</div>
     </head>
     <body>
       <div id = "About Me"></div>
@@ -124,7 +162,7 @@ label { color: white; }
           5) No work experience or internships yet.<br>
         
       </p>
-      <img src=https://cdn.discordapp.com/attachments/826452820894023700/913604314935750686/NearLightArt1.png alt=Near_Light_Banner class="center">
+      <img src= "NearLightArt1.png" alt= Near_Light_Banner class="center">
       <div id = "Achievements"></div>
       <h3>
           Achievements
