@@ -1,9 +1,11 @@
+<!DOCTYPE html>
 <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     <header>
     <h1><span style="color:blue">Lee Jun Fai's</span> <br> Work Portfolio</h1>
 
     </header>
-    <head>
     <style>
     h1 {text-align: center;}
     h3 {text-align: center;}
@@ -13,7 +15,7 @@
     h3 {font-family: Arial, Helvetica, sans-serif;}
     a {font-family: Arial, Helvetica, sans-serif;}
     body {
-        background: url(https://images.pexels.com/photos/1044990/pexels-photo-1044990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+        background: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png)
     }
     h1{
         background: rgba( 0, 0, 0, 0.7)
@@ -60,6 +62,39 @@ img{
   margin-right: auto;
   width: 50%;
 }
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;} * 
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+  text-align: center;
+}
+
+input[type=submit] {
+  background-color: #3E4FCE;
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2B3794;
+}
+.container {
+  border-radius: 6px;
+  background-color: #000000;
+  padding: 10px;
+  border-color: white;
+}
+label { color: white; }
     </style>
     <ul>
   <li><a href="#About Me">About Me</a></li>
@@ -76,8 +111,7 @@ img{
       <p>Hello, I'm Lee Jun Fai, an aspiring game/UI-UX designer currently studying Immersive Media at Ngee Ann Polytechnic's School of Infocomm and Technology.<br> I'm a very passionate person about design and wish to either help create amazing games or help promote them through web design.<br>
         I have experience in both design, 3D modelling and programming, and I'm looking forward to working with others with the same dream.<br> I've been inspired to help make games thanks to several recent popular games such as Minecraft, Genshin Impact, Arknights, Warframe and Honkai Impact 3, and wish to be able to recreate a game of similar, if not better quality than the aforementioned game.<br> I also have a passion for writing fiction and voice acting.
       </p>  
-      <img src=https://c.tenor.com/aUnN3u03TvIAAAAM/herrscher-of-flamescion-herrscher-of-flame.gif alt=HoFS_Point class="center">
-      
+      <img src=https://cdn.stocksnap.io/img-thumbs/280h/keyboard-typing_UATQGKPFOH.jpg alt=computer class="center">
       <div id = "Skills, Education, Work Experience"></div>
       <h3>
           Skills, Education, Work Experience
@@ -123,12 +157,66 @@ img{
 
         <div id = "Contact Me"></div>
         <h3>CONTACT ME</h3>
-        <p>Email:s10221837@connect.np.edu.sg<br>
-            <a href="s10221837@connect.np.edu.sg">Email me if you are interested in hiring me</a><br>
+        <p>Work Email:s10221837@connect.np.edu.sg<br>
            Twitter: @aethervoid2 <br>
            LinkedIn:<a href="https://www.linkedin.com/in/jun-fai-lee-05775b211/" title="LinkedIn Profile">Home Page</a><br>
 
         
         </p>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Name">
+
+    <label for="email">Email Address</label>
+    <input type="text" id="email" name="email" placeholder="Email Address">
+    
+    <label for="company">Company</label>
+    <input type="text" id="company" name="company" placeholder="Company Name + Industry">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="singapore">Singapore</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+      <option value="malaysia">Malaysia</option>
+      <option value="japan">Japan</option>
+      <option value="other">Other</option>
+    </select>
+  <label for ="hiring">Are you interested in hiring right now?</label> <br><br>
+  <input type="radio" id="hiring" name="hiring" value="hiring">
+  <label for="hiring"> I am interested in hiring</label><br>
+  <input type="radio" id="nothiring" name="nothiring" value="nothiring">
+  <label for="nothiring"> I am not interested in hiring yet</label><br>
+  <br>
+
+    <label for="subject">Message (If you selected "Other" under Country, please name it here)</label>
+    <textarea id="subject" name="subject" placeholder="Write your message here" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<h3> Got some feedback about this website? Rate the site here</h3>
+<div class="container">
+    <form action="/action_page.php">
+        <label for ="rating">Rate this site out of 10</label>
+        <select id="rating" name="rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+        <label for="feedback">If you have any suggestions or feedback for the website, please write them here!</label>
+    <textarea id="feedback" name="feedback" placeholder="Write your feedback here" style="height:100px"></textarea>
+    <input type="submit" value="Submit">
+    </form>
     </body>
 </html>
